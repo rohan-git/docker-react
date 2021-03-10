@@ -1,8 +1,0 @@
-apiVersion: apps/v1
-kind: Deployment
-metadata:
-  name: react-docker
-spec:
-  containers:
-    - name: react-docker
-    image: sampletag

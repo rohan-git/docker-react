@@ -1,0 +1,17 @@
+# .semaphore/semaphore.yml
+version: v1.0
+name: Building Docker images
+agent:
+  machine:
+    type: e1-standard-2
+    os_image: ubuntu1804
+
+blocks:
+  - name: Build Node
+    task:
+      jobs:
+      - name: Docker Hub
+        commands:
+          - checkout
+          - docker build -t -f Dockerfile.dev sampleTag .
+          - docker run sampleTag
