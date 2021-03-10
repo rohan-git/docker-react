@@ -13,5 +13,5 @@ blocks:
       - name: Docker Hub
         commands:
           - checkout
-          - docker build -t -f Dockerfile.dev sampleTag .
+          - docker build -t sampleTag -f Dockerfile.dev .
           - docker run sampleTag
