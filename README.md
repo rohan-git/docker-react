@@ -1,5 +1,7 @@
 [![Build Status](https://semaphoreci.com/api/v1/rohan-git/docker-react/branches/master/badge.svg)](https://semaphoreci.com/rohan-git/docker-react)
 
+[![Build Status](https://rohan-git.semaphoreci.com/badges/docker-react/branches/master.svg)](https://rohan-git.semaphoreci.com/projects/docker-react)
+
 
 # Getting Started with Create React App
 
