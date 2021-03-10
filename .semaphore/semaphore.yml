@@ -15,3 +15,6 @@ blocks:
           - checkout
           - docker build -t sampletag -f Dockerfile.dev .
           - docker run -e CI=true sampletag npm run test
+promotions:
+  - name: Elastic Bean Deployment
+    pipeline_file: semaphore-aws.yml
