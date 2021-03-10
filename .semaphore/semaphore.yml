@@ -13,5 +13,5 @@ blocks:
       - name: Docker Hub
         commands:
           - checkout
-          - docker build -t sampleTag -f Dockerfile.dev .
-          - docker run -e CI=true sampleTag npm run test
+          - docker build -t sampletag -f Dockerfile.dev .
+          - docker run -e CI=true sampletag npm run test
