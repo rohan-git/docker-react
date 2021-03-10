@@ -14,4 +14,4 @@ blocks:
         commands:
           - checkout
           - docker build -t sampleTag -f Dockerfile.dev .
-          - docker run sampleTag
+          - docker run -e CI=true sampleTag npm run test
